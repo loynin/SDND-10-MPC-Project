@@ -71,12 +71,12 @@ There are two parts in designing the Model Predictive Control. First part is the
 
 ##### Setup the Controller: ( Picture 1)
 <img src="images/image2.png" width="500px"/>
-Setting up controller by :
+Setting up controller by :<br>
 * Defining the duration of trajectory  by defining N and dt
 * Define the vehicle MPC and the limitation of actuation (Constrains).
 * Setup the cost function
 
 ##### Processing the Controller (Picture 2)
-<img src="images/image3.png" width="500px"/>
+<img src="images/image3.png" width="500px"/><br>
 Start by passing the current state into the Solver. The Solver use Model Predictive Control, Constrains, and Cost function to produce vector imput that use to control the actuation that are acceleration and steering angle.
 
