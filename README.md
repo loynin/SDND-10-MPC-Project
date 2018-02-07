@@ -71,7 +71,8 @@ There are two parts in designing the Model Predictive Control. First part is the
 
 ##### Setup the Controller: ( Picture 1)
 <img src="images/image2.png" width="500px"/>
-Setting up controller by :<br>
+Setting up controller by :
+
 * Defining the duration of trajectory  by defining N and dt
 * Define the vehicle MPC and the limitation of actuation (Constrains).
 * Setup the cost function
